@@ -1,0 +1,1 @@
+add_library(random_generate random_generate.cpp)

@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "random_generate",
+					"jsonFile" : "directory-random_generate-RelWithDebInfo-c32065a1c863bfe4e951.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "random_generate",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "dataclass",
+					"jsonFile" : "directory-dataclass-RelWithDebInfo-2c313e3a4d3dbeb209cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "dataclass",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "abyss",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "abyss::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-abyss-RelWithDebInfo-72b99d17f17029061854.json",
+					"name" : "abyss",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "dataclass::@b18c986d8106a2e3e0e8",
+					"jsonFile" : "target-dataclass-RelWithDebInfo-10b45ce7eddbe55d181a.json",
+					"name" : "dataclass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "random_generate::@31d39c143751ae0e4800",
+					"jsonFile" : "target-random_generate-RelWithDebInfo-4dbfdf57d771cfb0d48d.json",
+					"name" : "random_generate",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Worktable/project-random-abyss/build",
+		"source" : "D:/Worktable/project-random-abyss"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
